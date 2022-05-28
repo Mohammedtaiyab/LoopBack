@@ -1,0 +1,23 @@
+{
+  "name": "Shipment",
+  "plural": "shipments",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "OrderId": {
+      "type": "string",
+      "required": true
+    },
+    "Status": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

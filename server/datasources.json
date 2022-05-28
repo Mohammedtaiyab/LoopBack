@@ -1,0 +1,31 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "MongoDB": {
+    "host": "@cluster0.g2mjyd5.mongodb.net",
+    "port": 27017,
+    "url": "mongodb+srv://Mdtaiyab:Demmahom@cluster0.g2mjyd5.mongodb.net/loopbackcloud?retryWrites=true&w=majority",
+    "database": "loopbackcloud",
+    "password": "Demmahom",
+    "name": "MongoDB",
+    "user": "Mdtaiyab",
+    "useNewUrlParser": true,
+    "connector": "mongodb"
+  },
+  "storage": {
+    "name": "storage",
+    "connector": "loopback-component-storage",
+    "provider": "filesystem",
+    "root": "../images"
+  },
+  "filestore-mongo": {
+    "host": "localhost",
+    "port": 27017,
+    "database": "loopbackcloud",
+    "name": "filestore-mongo",
+    "provider": "filestore-mongo",
+    "connector": "loopback-component-storage-mongo"
+  }
+}
